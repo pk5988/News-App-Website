@@ -1,0 +1,61 @@
+.background{
+    background: linear-gradient(to right ,blue,navy,blueviolet);
+    color:white
+}
+.card-title{
+    font-size: 14px;
+    height:80px;
+    overflow: auto;
+}
+.card-title ::-webkit-scrollbar{
+    display: none;
+
+}
+.card-text{
+    font-size: 13px;
+    height: 220px;
+}
+.card-source-date{
+    display: flex;
+    justify-content:space-between ;
+    border-bottom: 5px solid lightgray;
+    margin-bottom: 10px;
+}
+.card-source-date{
+    font-size: 12px;
+}
+.test ::-webkit-scrollbar {
+    display: none;
+}
+@media only screen and (min-width:0) and (max-width:576px){
+    .card-title{
+    height:30px;
+}
+.card-text{
+        height: 70px;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    .card-title{
+    height:40px;
+}
+.card-text{
+    height: 130px;
+}
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    .card-title{
+    height:40px;
+}
+.card-text{
+    height: 160px;
+}
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    .card-title{
+    height:40px;
+}
+.card-text{
+    height: 170px;
+}
+}
